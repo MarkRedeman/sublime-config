@@ -37,7 +37,7 @@
 				<key>invisibles</key>
 				<string>#747369</string>
 				<key>lineHighlight</key>
-				<string>#74736955</string>
+				<string>#393939</string>
 				<key>selection</key>
 				<string>#515151</string>
 			</dict>
@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>Link Text</string>
 			<key>scope</key>
-      <string>string.other.link, punctuation.definition.string.end.markdown</string>
+			<string>string.other.link</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -417,7 +417,7 @@
 			<key>name</key>
 			<string>Inserted</string>
 			<key>scope</key>
-			<string>markup.inserted</string>
+			<string>markup.inserted, markup.inserted.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -428,7 +428,7 @@
 			<key>name</key>
 			<string>Deleted</string>
 			<key>scope</key>
-			<string>markup.deleted</string>
+			<string>markup.deleted, markup.deleted.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -439,11 +439,33 @@
 			<key>name</key>
 			<string>Changed</string>
 			<key>scope</key>
-			<string>markup.changed</string>
+			<string>markup.changed, markup.changed.git_gutter</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#cc99cc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ignored</string>
+			<key>scope</key>
+			<string>markup.ignored, markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#515151</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Untracked</string>
+			<key>scope</key>
+			<string>markup.untracked, markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#515151</string>
 			</dict>
 		</dict>
 		<dict>
@@ -492,7 +514,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Illegal</string>
+			<string>Invalid</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -500,46 +522,7 @@
 				<key>background</key>
 				<string>#f2777a</string>
 				<key>foreground</key>
-				<string>#f2f0ec</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Broken</string>
-			<key>scope</key>
-			<string>invalid.broken</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#f99157</string>
-				<key>foreground</key>
 				<string>#2d2d2d</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Deprecated</string>
-			<key>scope</key>
-			<string>invalid.deprecated</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#d27b53</string>
-				<key>foreground</key>
-				<string>#f2f0ec</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Unimplemented</string>
-			<key>scope</key>
-			<string>invalid.unimplemented</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#747369</string>
-				<key>foreground</key>
-				<string>#f2f0ec</string>
 			</dict>
 		</dict>
 	<dict>
@@ -574,6 +557,6 @@
             </dict>
         </dict></array>
 	<key>uuid</key>
-	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
+	<string>36594751-36ac-443a-9f2f-111b815085cf</string>
 </dict>
 </plist>
