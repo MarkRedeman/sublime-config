@@ -1,7 +1,7 @@
 {
 	"always_show_minimap_viewport": false,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Dracula (SL).tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"draw_minimap_border": false,
 	"fade_fold_buttons": false,
 	"file_exclude_patterns":
@@ -29,7 +29,7 @@
 	[
 		"gray_antialias"
 	],
-	"font_size": 13,
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -40,8 +40,8 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 6,
-	"line_padding_top": 6,
+	"line_padding_bottom": 4,
+	"line_padding_top": 4,
 	"material_theme_disable_tree_indicator": true,
 	"original_color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"overlay_scroll_bars": "enabled",
